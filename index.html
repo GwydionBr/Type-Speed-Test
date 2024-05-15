@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<div id="mainContainer">
+<div id="mainContainer" class="column-flex">
     <div id="introduction">
         <h1>Welcome to the Typing Speed Test</h1>
         <h2>Let's see how fast you can type</h2>
     </div>
 
 <!--Text-Auswahl-->
-    <div id="text-choice">
+    <div id="text-choice" class="column-flex">
         <form>
             <fieldset>
                 <legend>Choose your Text</legend>
@@ -22,16 +22,15 @@
                 <br>
                 <input type="radio" id="own_text" name="text_choice" value="own">
                 <label for="own_text">Use your own text</label>
+                <div id="reset"></div>
             </fieldset>
-            <div id="demo">
-
-            </div>
         </form>
+        <div id="text"></div>
     </div>
 
 
 <!--Typing-Area-->
-<!--    <div id="typing-area">-->
+<!--    <div id="typing-area" class="column-flex">-->
 <!--        <label for="typingField">Start Typing here:</label>-->
 <!--        <textarea id="typingField"></textarea>-->
 <!--    </div>-->
